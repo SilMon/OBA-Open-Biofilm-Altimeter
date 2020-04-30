@@ -9,3 +9,6 @@ OBA is an open source software tool to determine the are, number of bacteria and
 * Go to the created folder and click Yes. ImageJ will warn you that BacteriaCounter.java already exists. Click Yes to overwrite
 * Open an image e.g. one of the examples provided in this repository
 * Then go to Plugins/Name of the install folder/Bacteria counter
+
+## Interface
+![Image of the interface](https://raw.githubusercontent.com/SilMon/OBA-Open-Biofilm-Altimeter/master/bactCounter.PNG "The Interface of the Plugin")
