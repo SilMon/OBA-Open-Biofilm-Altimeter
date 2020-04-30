@@ -10,5 +10,11 @@ OBA is an open source software tool to determine the are, number of bacteria and
 * Open an image e.g. one of the examples provided in this repository
 * Then go to Plugins/Name of the install folder/Bacteria counter
 
-## Interface
+## Interface and Results
 ![Image of the interface](https://raw.githubusercontent.com/SilMon/OBA-Open-Biofilm-Altimeter/master/bactCounter.PNG "The Interface of the Plugin")
+
+Upon start, the plugin will open a dialog for analysis. This dialog contains following parameters:
+* **Bacteria Height**: The height of one bacterium in units
+* **Pixels per bacterium**: The area of one bacterium in pixels
+* **Stretch Contrast**: Stretches the values of the image to a range between 0 and 255. This enables visual control over the detected areas, but might falsify the results. Should not be used if the results should be used further. Nethertheless, useful during preview.
+* **Preview**: Enables the preview mode of ImageJ for parameter tuning
