@@ -20,6 +20,6 @@ Upon start, the plugin will open a dialog for analysis. This dialog contains fol
 * **Preview**: Enables the preview mode of ImageJ for parameter tuning
 # Results
 After analysis, following results will be logged by the plugin:
-* Approximate Bacteria Count: The approximate number of the bacteria in the biofilm
-* Max. Height: The maximal amount of bacteria overlapping each other.
-* Theoretical Area: The area in pixels the bacteria would need if layed out in a one dimensial layer
+* **Approximate Bacteria Count**: The approximate number of the bacteria in the biofilm
+* **Max. Height**: The maximal amount of bacteria overlapping each other.
+* **Theoretical Area**: The area in pixels the bacteria would need if layed out in a one dimensial layer
