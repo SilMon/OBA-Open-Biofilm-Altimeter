@@ -1,3 +1,5 @@
+<img src="logo.png" alt="drawing" style="width:200px;"/>
+
 # OBA-Open-Biofilm-Altimeter
 
 ![OBA](https://github.com/SilMon/OBA-Open-Biofilm-Altimeter/blob/master/logo.png)
