@@ -4,7 +4,7 @@
 
 OBA (Open Biofilm Altimeter) is an open source software tool to determine the area, number of bacteria and height of a biofilm.
 
-OBA was developed to work with the VideoScan system. VideoScan is a fully automatized multispectral imaging plattform that can be used to analyze microbead assays, cell assays or a combination thereof. For details see [A Highly Versatile Microscope Imaging Technology Platform for the Multiplex Real-Time Detection of Biomolecules and Autoimmune Antibodies ](https://doi.org/10.1007/10_2011_132).
+OBA was developed to work with the VideoScan system. VideoScan is a fully automatized multispectral imaging plattform that can be used to analyze microbead assays, cell assays or a combination thereof. For details see [A Highly Versatile Microscope Imaging Technology Platform for the Multiplex Real-Time Detection of Biomolecules and Autoimmune Antibodies](https://doi.org/10.1007/10_2011_132).
 
 Part of this platform is a cloused source software stack. As supporters of reproducible research and open source software ([DOI:10.21037/jlpm.2019.04.05](http://dx.doi.org/10.21037/jlpm.2019.04.05)), we have reimplemented the algortihm to determine the area, number of bacteria and height of a biofilm by using the presumably most widely used bioimage software [ImageJ](https://imagej.net/Welcome) and its  batteries-included distribution [FIJI](https://fiji.sc/).
 
