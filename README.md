@@ -22,7 +22,7 @@ Core functions of OBA are implemented in the Java library `Bacteria_counter.java
 
 4. Go to the created Folder on choose BacteriaCounter.java. ImageJ will then open a dialog to ask where the plugin should be installed.
 
-5. Go to the created folder and click Yes. ImageJ/FIJI will warn you that BacteriaCounter.java already exists. Click **Yes** to overwrite
+5. Go to the created folder and click Yes. ImageJ/FIJI will warn you that `Bacteria_Counter.java` already exists. Click **Yes** to overwrite
 
 6. Open an image e.g. one of the examples provided in this repository
 
