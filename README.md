@@ -1,4 +1,4 @@
-# Analysis strategy for biofilms with a thickness of up to 20 µm
+# Bioimage informatics for the analysis of biofilms
 ## Introduction to biofilm analysis
 Biofilms cause complications and high costs in both industry and medicine. Of particular interest are bacterial infections of prosthetic materials, which usually cannot be eliminated due to the high antibiotic resistance known for bacteria forming biofilms. The search for new materials and coatings with lower colonization potential and antibacterial activity is of great importance to reduce biofilm formation. However, there is no standardized procedure to examine the colonization characteristics of bacteria in the biofilm state in situ.
 We have developed an automated epifluorescence microscopy system for the semi-quantitative analysis of three-dimensional (3D) biofilms on various surfaces, based on our previously published [VideoScan platfrom](https://doi.org/10.1007/10_2011_132). VideoScan is a fully automatized multispectral imaging plattform that can be used to analyze microbead assays, cell assays or a combination thereof. Most parts of this platform are driven by a closed source software stack.
@@ -15,7 +15,7 @@ To **count bacteria** in biofilms, we assume that the bacteria are uniformly sta
 
 ![OBA](https://github.com/SilMon/OBA-Open-Biofilm-Altimeter/blob/master/logo.png)
 
-OBA (Open Biofilm Altimeter) is an open source software tool to determine the area, number of bacteria and height of a biofilm. To determine the **thickness of a biofilm**, height profiles are created for the gray scale images captured (and could be converted into 3D representations using the ImageJ 1.5 plugin *Interactive 3D Surface Plot*). 
+OBA (Open Biofilm Altimeter) is an open source software tool to determine the area, number of bacteria and height of a biofilm  with a thickness of up to 20 µm. To determine the **thickness of a biofilm**, height profiles are created for the gray scale images captured (and could be converted into 3D representations using the ImageJ 1.5 plugin *Interactive 3D Surface Plot*). 
 
 OBA was developed to work with the VideoScan system. 
 
