@@ -24,6 +24,10 @@ OBO is distributed under the [GNU General Public License v3.0](https://github.co
 
 Core functions of OBA are implemented in the Java library `Bacteria_counter.java`.
 
+## Requirements
+
+This software was tested under Linux (Ubuntu 19.10) and Windows (8, 10). All systms were 64 bit (32 bit not tested). We assume that it should work under all platfoms that are supported by ImageJ (>= 1.5) /FIJI and Java (>= 1.8.0-12).
+
 ## How to install
 
 1. Create a new folder named in ImageJ/Plugins
