@@ -38,7 +38,7 @@ public class Bacteria_counter implements ExtendedPlugInFilter, DialogListener{
 		// Cast ip to ColorProcessor and get green channel
 		ColorProcessor cp = (ColorProcessor) ip;
 		ByteProcessor green = cp.getChannel(2, null);
-		// Get treshhold value
+		// Get threshold value
 		AutoThresholder thresh = new AutoThresholder();
 		double threshold = thresh.getThreshold(Method.Li, green.getHistogram(256));
 		double theoArea = 0;
