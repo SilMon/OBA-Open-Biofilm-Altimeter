@@ -1,6 +1,6 @@
 # OBA-Open-Biofilm-Altimeter
 
-[OBA](https://github.com/SilMon/OBA-Open-Biofilm-Altimeter/blob/master/logo.png)
+![OBA](https://github.com/SilMon/OBA-Open-Biofilm-Altimeter/blob/master/logo.png)
 
 OBA (Open Biofilm Altimeter) is an open source software tool to determine the area, number of bacteria and height of a biofilm.
 
