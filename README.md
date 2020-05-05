@@ -12,6 +12,15 @@ OBO is distributed under the [GNU General Public License v3.0](https://github.co
 
 Core functions of OBA are implemented in the Java library `Bacteria_counter.java`.
 
+## Background
+
+**Analysis strategy for thin biofilms with a thickness of up to 20 µm**
+
+One two-dimensional image is analyzed by calculation of the number of bacteria by differences in the gray intensity of pixels of this image. A pixel with higher gray intensity than the background belonged to a bacterium. The higher the gray intensity of one pixel, the more bacteria lay on top of each other. In more detail, to distinguish the bacteria from the background, an intensity threshold (determined experimentally) was set: pixels with a higher fluorescence intensity than the threshold were defined as belonging to a bacterium (a bacterium ~20 pixel).
+To **count bacteria** in biofilms, we assume that the bacteria are uniformly stained and brighter areas are caused by the superposition of several bacteria within this area. The bacterium with the lowest fluorescence intensity that is separated from the background is single-layered. Brighter bacteria are multi-layered. This divides the foreground area into brightness classes and represents a linear relation. The first class comprise the areas with intensity values from the threshold up to the doubled threshold. These areas are covered with single-layered biofilms. Intensity values from the double threshold up to the triple threshold are covered with double-layered biofilms. These areas are then divided by the size of a single bacteria and multiplied by the number of superimposed layers. The pixel brightness was used to differentiate between a bacterium and the background, thus determining the **colonized are**a in the grayscale images.
+To determine the **thickness of a biofilm**, height profiles are created for the gray scale images captured (and could be converted into 3D representations using the ImageJ 1.5 plugin *Interactive 3D Surface Plot*). 
+
+
 ## How to install
 
 1. Create a new folder named in ImageJ/Plugins
