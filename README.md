@@ -6,7 +6,7 @@ OBA was developed to work with the VideoScan system. VideoScan is a fully automa
 
 Part of this platform is a cloused source software stack. As supporters of reproducible research and open source software ([DOI:10.21037/jlpm.2019.04.05](http://dx.doi.org/10.21037/jlpm.2019.04.05)), we have reimplemented the algortihm to determine the area, number of bacteria and height of a biofilm by using the presumably most widely used bioimage software [ImageJ](https://imagej.net/Welcome) and its  batteries-included distribution [FIJI](https://fiji.sc/).
 
-OBO is distributed under the GNU General Public License v3.0.
+OBO is distributed under the [GNU General Public License v3.0](https://github.com/SilMon/OBA-Open-Biofilm-Altimeter/blob/master/LICENSE).
 
 ## How to install
 
