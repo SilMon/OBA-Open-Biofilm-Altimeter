@@ -69,13 +69,20 @@ public class Bacteria_counter implements ExtendedPlugInFilter, DialogListener{
 		if (stretchContrast){
 			// Calculate ratio of 255 to min max distance
 			double ratio = 255.0 / (maxPix - minPix);
-			//IJ.log(String.format("Min: %d Max: %d Ratio: %f", minPix, maxPix, ratio));
+			// Create lookup table
+			int[] lut = new int[256];
+			for(int a = 0; a < 256; a++){
+				// Calculate the new intensity according to ratio
+				int b = (int)(a * ratio);
+				// Create new pixel value for color image
+				lut[a] = b << 16 | b << 8 | b;
+			}
 			for (int v = 0; v < cp.getHeight(); v++){
 				for (int u = 0; u < cp.getWidth(); u++){
-					// Stretch contrast according to ratio
-					int pix = (int)(((ip.get(u, v) >> 16) & 0xFF) * ratio);
-					int newPix = pix << 16 | pix << 8 | pix;
-					ip.set(u, v, newPix);
+					// Get intensity at v, u
+					int pix = (ip.get(u, v) >> 16) & 0xFF;
+					// Stretch contrast according to lut
+					ip.set(u, v, lut[pix]);
 				}
 			}
 		}
